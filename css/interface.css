@@ -1,0 +1,105 @@
+
+@media screen and (max-width: 1633px){
+	body{
+		font-size: 0.9rem;
+	}
+	.time{
+		font-size: 2.5rem;
+	}
+	#year,#month,#day{
+		font-size: 1.25rem;
+	}
+}
+
+@media screen and (max-width: 1400px){
+	body{
+		font-size: 0.75rem;
+	}
+	.time{
+		font-size: 2rem;
+	}
+	#year,#month,#day{
+		font-size: 1rem;
+	}
+}
+
+@media screen and (max-width: 1175px){
+	body{
+		font-size: 0.6rem;
+	}
+	.time{
+		font-size: 1.5rem;
+	}
+	#year,#month,#day{
+		font-size: 0.75rem;
+	}
+}
+
+@media screen and (max-width: 980px){
+	body{
+		font-size: 0.6rem;
+	}
+	.time{
+		font-size: 1.5rem;
+	}
+	#year,#month,#day{
+		font-size: 0.75rem;
+	}
+	.detailList,.ninfoView{
+		display: none;
+	}
+	.result{
+		width: 100%;
+	}
+	.userList{
+		width: 30%;
+	}
+	.einfoView{
+		width: 20%;
+	}
+	.iconView{
+		width: 20%;
+	}
+	.minfoView{
+		width: 30%;
+	}
+	.dinfoView{
+		width: 30%;
+	}
+	.mrinfoView{
+		width: 20%;
+	}
+	.mcinfoView{
+		width: 20%;
+	}
+	.time{
+		width: 50%;
+	}
+}
+
+@media screen and (max-width: 800px){
+	.minfoView,.mrinfoView{
+		display: none;
+	}
+	.dinfoView{
+		width: 50%;
+	}
+	.iconView{
+		width: 20%;
+	}
+	.einfoView{
+		width: 30%;
+	}
+	.mcinfoView{
+		display: none;
+	}
+	.time{
+		width: 90%;
+	}
+}
+
+@media screen and (max-width: 500px){
+	.userList:not(.userView){
+		display: none;
+	}
+}
